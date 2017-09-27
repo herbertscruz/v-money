@@ -1,5 +1,6 @@
 import Money from './component'
 import VMoney from './directive'
+import MoneyFilter from './filter'
 import options from './options'
 const VERSION = proccess.env.VERSION
 
@@ -18,6 +19,7 @@ function install (Vue, globalOptions) {
   }
   Vue.directive('money', VMoney)
   Vue.component('money', Money)
+  Vue.filter('money', MoneyFilter)
 }
 
 export default install
