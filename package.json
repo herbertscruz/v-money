@@ -1,6 +1,6 @@
 {
-  "name": "v-money",
-  "version": "0.8.0",
+  "name": "v-money-plus",
+  "version": "0.1.0",
   "description": "Vue currency input/directive mask",
   "main": "dist/v-money.js",
   "scripts": {
@@ -31,7 +31,7 @@
       "limit": "1.6 KB"
     }
   ],
-  "author": "Marcos Neves <marcos.neves@gmail.com> (https://vuejs-tips.github.io/)",
+  "author": "Marcos Neves <marcos.neves@gmail.com> (https://vuejs-tips.github.io/), Herberts Cruz <herbertscruz@gmail.com> (https://github.com/herbertscruz)",
   "license": "MIT",
   "devDependencies": {
     "babel-jest": "^20.0.3",
